@@ -1,0 +1,22 @@
+.link_text {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.container_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image_header {
+  width: 10pc;
+}
+.button {
+  background-color: var(--primary-bg-color);
+  padding: 10px 0px;
+  width: 10pc;
+  border-radius: 50px;
+  cursor: pointer;
+}
