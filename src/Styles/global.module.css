@@ -3,3 +3,9 @@
   margin-left: 21pc;
   margin-right: 21pc;
 }
+
+.hr {
+  border: none;
+  height: 2px;
+  background: #999999;
+}
