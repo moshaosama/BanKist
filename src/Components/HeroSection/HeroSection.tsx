@@ -4,7 +4,8 @@ import HeroSectionStyle from "./HerSection.module.css";
 
 const HeroSection = () => {
   const { container } = globalStyle();
-  const { container_hero_section, header_text, span_text } = HeroSectionStyle;
+  const { container_hero_section, header_text, span_text, button_text } =
+    HeroSectionStyle;
   return (
     <>
       <div className={clsx(container, container_hero_section)}>
@@ -16,10 +17,13 @@ const HeroSection = () => {
           <p className="text-3xl w-[37pc] font-semibold">
             A simpler banking experience for a simpler life
           </p>
-          <button className="mt-4 text-[var(--primary-bg-color)]">
-            Learn more ↓
-          </button>
+          <button className={button_text}>Learn more ↓</button>
         </div>
+        <img
+          src="https://bankist-webdom.vercel.app/assets/hero.png"
+          alt="HeroSection.png"
+          className="w-[30pc]"
+        />
       </div>
     </>
   );

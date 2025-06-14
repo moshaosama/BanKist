@@ -7,7 +7,7 @@
 .header_text {
   font-size: 3pc;
   width: 50pc;
-  line-height: 6pc;
+  line-height: 5pc;
   font-weight: bold;
 }
 
@@ -15,4 +15,13 @@
   background-color: var(--primary-bg-color);
   padding: 6px 33px;
   border-radius: 40px 0px 40px 0px;
+}
+
+.button_text {
+  color: var(--primary-bg-color);
+  text-decoration: underline;
+  margin-top: 25px;
+  font-weight: bolder;
+  text-underline-offset: 10px;
+  cursor: pointer;
 }
