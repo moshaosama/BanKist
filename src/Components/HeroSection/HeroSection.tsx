@@ -3,7 +3,7 @@ import { globalStyle } from "../../Styles";
 import HeroSectionStyle from "./HerSection.module.css";
 
 const HeroSection = () => {
-  const { container } = globalStyle();
+  const { container, hr } = globalStyle();
   const { container_hero_section, header_text, span_text, button_text } =
     HeroSectionStyle;
   return (
@@ -25,6 +25,7 @@ const HeroSection = () => {
           className="w-[30pc]"
         />
       </div>
+      <hr className={hr} />
     </>
   );
 };
