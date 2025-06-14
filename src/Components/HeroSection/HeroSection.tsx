@@ -19,11 +19,7 @@ const HeroSection = () => {
           </p>
           <button className={button_text}>Learn more ↓</button>
         </div>
-        <img
-          src="https://bankist-webdom.vercel.app/assets/hero.png"
-          alt="HeroSection.png"
-          className="w-[30pc]"
-        />
+        <img src="hero.png" alt="HeroSection.png" className="w-[30pc]" />
       </div>
       <hr className={hr} />
     </>
