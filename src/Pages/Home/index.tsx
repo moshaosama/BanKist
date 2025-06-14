@@ -2,6 +2,7 @@ import Featured_intro from "../../Components/Featured_intro/Featured_intro";
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import { Header } from "../../Layouts/Header/Header";
 import Features_Section_Render from "../../Components/Featured_Section/Components/Features_Section_Render";
+import Operation_Intro from "../../Components/Operations/Components/Operation_Intro";
 
 export const Home = () => {
   return (
@@ -10,6 +11,7 @@ export const Home = () => {
       <HeroSection />
       <Featured_intro />
       <Features_Section_Render />
+      <Operation_Intro />
     </>
   );
 };
