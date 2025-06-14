@@ -1,5 +1,5 @@
 import globalstyle from "./global.module.css";
 export const globalStyle = () => {
-  const { container, hr } = globalstyle;
-  return { container, hr };
+  const { container, hr, intro_content } = globalstyle;
+  return { container, hr, intro_content };
 };
