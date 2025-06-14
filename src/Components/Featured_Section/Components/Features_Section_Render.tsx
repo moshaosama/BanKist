@@ -2,8 +2,11 @@ import { AiOutlineStock } from "react-icons/ai";
 import { HiMiniComputerDesktop } from "react-icons/hi2";
 import { LuCreditCard } from "react-icons/lu";
 import Featured_Section from "../Featured_Section";
+import { globalStyle } from "../../../Styles";
+import clsx from "clsx";
 
 const Features_Section_Render = () => {
+  const { hr } = globalStyle();
   return (
     <>
       <Featured_Section
@@ -27,6 +30,7 @@ const Features_Section_Render = () => {
         Image="card.jpg"
         description="Nesciunt quos autem dolorum voluptates cum dolores dicta fuga inventore ab? Nulla incidunt eius numquam sequi iste pariatur quibusdam!"
       />
+      <hr className={clsx(hr, "my-20")} />
     </>
   );
 };
