@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import  globalStyle  from "../../Styles/global.module.css";
+import globalStyle from "../../Styles/global.module.css";
 import HeroSectionStyle from "./HerSection.module.css";
 import { useEffect, useState } from "react";
 

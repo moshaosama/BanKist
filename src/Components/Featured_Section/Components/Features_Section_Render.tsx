@@ -5,7 +5,7 @@ import Featured_Section from "../Featured_Section";
 import clsx from "clsx";
 import IntroSection from "../../IntroSection/IntroSection";
 import useSetAnimation from "../../../Hooks/useSetAnimation";
-import globalStyle from "../../Styles/global.module.css";
+import globalStyle from "../../../Styles/global.module.css";
 
 const Features_Section_Render = () => {
   const { hr } = globalStyle;
