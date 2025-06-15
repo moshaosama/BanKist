@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
-import { globalStyle } from "../../Styles";
+import  globalStyle  from "../../Styles/global.module.css";
 import styleHeader from "./Header.module.css";
 import clsx from "clsx";
 import { HiBars3BottomRight, HiMiniXMark } from "react-icons/hi2";
 import { useSidebarContext } from "../../Context/SidebarContext";
 export const Header = () => {
   const { image_header, button, container_header, link_text } = styleHeader;
-  const { container } = globalStyle();
+  const { container } = globalStyle;
   const { handleTriggerSidebar, isOpen } = useSidebarContext();
   const [isNext, setIsNext] = useState(false);
 

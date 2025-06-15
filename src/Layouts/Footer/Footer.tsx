@@ -1,11 +1,11 @@
 import clsx from "clsx";
 import FooterStyle from "./Footer.module.css";
-import { globalStyle } from "../../Styles";
+import  globalStyle  from "../../Styles/global.module.css";
 import useSetAnimation from "../../Hooks/useSetAnimation";
 
 const Footer = () => {
   const { container, Btn, Header_Details } = FooterStyle;
-  const { hr } = globalStyle();
+  const { hr } = globalStyle;
   const { isTransiton } = useSetAnimation(2800);
   return (
     <>

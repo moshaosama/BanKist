@@ -1,9 +1,9 @@
-import { globalStyle } from "../../Styles";
+import globalStyle from "../../Styles/global.module.css";
 import type { IntroSectionStyleProps } from "../../Types/Intro_Section";
 import globalSectionStyle from "./IntroSection.module.css";
 
 const IntroSection = (props: IntroSectionStyleProps) => {
-  const { container, intro_content } = globalStyle();
+  const { container, intro_content } = globalStyle;
   const { header_section } = globalSectionStyle;
   return (
     <div className={container}>

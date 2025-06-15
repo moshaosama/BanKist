@@ -1,10 +1,10 @@
 import clsx from "clsx";
-import { globalStyle } from "../../Styles";
+import  globalStyle  from "../../Styles/global.module.css";
 import HeroSectionStyle from "./HerSection.module.css";
 import { useEffect, useState } from "react";
 
 const HeroSection = () => {
-  const { container, hr } = globalStyle();
+  const { container, hr } = globalStyle;
   const { container_hero_section, header_text, span_text, button_text } =
     HeroSectionStyle;
 

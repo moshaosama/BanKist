@@ -2,13 +2,13 @@ import { AiOutlineStock } from "react-icons/ai";
 import { HiMiniComputerDesktop } from "react-icons/hi2";
 import { LuCreditCard } from "react-icons/lu";
 import Featured_Section from "../Featured_Section";
-import { globalStyle } from "../../../Styles";
 import clsx from "clsx";
 import IntroSection from "../../IntroSection/IntroSection";
 import useSetAnimation from "../../../Hooks/useSetAnimation";
+import globalStyle from "../../Styles/global.module.css";
 
 const Features_Section_Render = () => {
-  const { hr } = globalStyle();
+  const { hr } = globalStyle;
   const { isTransiton } = useSetAnimation(300);
 
   return (

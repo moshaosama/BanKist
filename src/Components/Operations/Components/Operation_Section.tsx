@@ -4,12 +4,12 @@ import { useClickBtnOperations } from "../../../Hooks/useClickBtnOperations";
 import { IoHomeOutline } from "react-icons/io5";
 import { BsFillPersonXFill } from "react-icons/bs";
 import clsx from "clsx";
-import { globalStyle } from "../../../Styles";
+import globalStyle from "../../Styles/global.module.css";
 import IntroSection from "../../IntroSection/IntroSection";
 import useSetAnimation from "../../../Hooks/useSetAnimation";
 const Operation_Section = () => {
   const { Transfers_Btn, Loan_Btn, Closing_Btn } = Operation_Section_Style;
-  const { hr } = globalStyle();
+  const { hr } = globalStyle;
   const {
     handleOpenisClosing,
     handleOpenisLoan,

@@ -1,9 +1,9 @@
 import clsx from "clsx";
-import { globalStyle } from "../../Styles";
+import globalStyle from "../../Styles/global.module.css";
 import Feature_Section from "./Featured_Section.module.css";
 import type { Feature_Section_Props } from "../../Types/Feature_Section";
 const Featured_Section = (props: Feature_Section_Props) => {
-  const { container } = globalStyle();
+  const { container } = globalStyle;
   const { container_section, Icon } = Feature_Section;
   return (
     <>
