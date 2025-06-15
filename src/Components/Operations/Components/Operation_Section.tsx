@@ -4,8 +4,11 @@ import { useClickBtnOperations } from "../../../Hooks/useClickBtnOperations";
 import { IoHomeOutline } from "react-icons/io5";
 import { BsFillPersonXFill } from "react-icons/bs";
 import clsx from "clsx";
+import { globalStyle } from "../../../Styles";
+import IntroSection from "../../IntroSection/IntroSection";
 const Operation_Section = () => {
   const { Transfers_Btn, Loan_Btn, Closing_Btn } = Operation_Section_Style;
+  const { hr } = globalStyle();
   const {
     handleOpenisClosing,
     handleOpenisLoan,
@@ -17,7 +20,11 @@ const Operation_Section = () => {
   } = useClickBtnOperations();
   return (
     <>
-      <div className="flex flex-col relative items-center justify-center mt-10">
+      <IntroSection
+        Header="Operations"
+        Description="Everything as simple as possible, but no simpler."
+      />
+      <div className="flex flex-col relative items-center justify-center mt-10 mb-60">
         <div className="flex gap-5 z-50">
           <div
             className={clsx(
@@ -135,6 +142,9 @@ const Operation_Section = () => {
             </div>
           </div>
         )}
+      </div>
+      <div className="my-28">
+        <hr className={hr} />
       </div>
     </>
   );
