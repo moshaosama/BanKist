@@ -9,7 +9,7 @@ const IntroSection = (props: IntroSectionStyleProps) => {
     <div className={container}>
       <div className={intro_content}>
         <h1 className={header_section}>{props.Header}</h1>
-        <p className="text-3xl font-bold">{props.Description}</p>
+        <p className="text-3xl font-bold max-sm:w-fit ">{props.Description}</p>
       </div>
     </div>
   );

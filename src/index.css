@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 * {
-  color: white;
+  color: var(--primary-text-color);
 }
 
 :root {
@@ -14,5 +14,5 @@
 }
 
 .Active {
-  background-color: green !important;
+  background-color: green;
 }

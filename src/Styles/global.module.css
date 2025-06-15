@@ -4,6 +4,17 @@
   margin-right: 21pc;
 }
 
+@media (width < 40rem) {
+  .container {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 0;
+  }
+  .intro_content {
+    width: fit-content !important;
+  }
+}
+
 .hr {
   border: none;
   height: 2px;

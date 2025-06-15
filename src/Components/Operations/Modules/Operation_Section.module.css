@@ -24,3 +24,18 @@
   text-align: center;
   cursor: pointer;
 }
+
+@media (width < 40rem) {
+  .Transfers_Btn {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .Loan_Btn {
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .Closing_Btn {
+    padding: 10px;
+    margin-top: 10px;
+  }
+}

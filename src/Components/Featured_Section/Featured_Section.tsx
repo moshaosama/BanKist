@@ -11,7 +11,8 @@ const Featured_Section = (props: Feature_Section_Props) => {
         className={clsx(
           container,
           container_section,
-          props.flexDirection === "row-reverse" ? "flex-row-reverse" : "flex"
+          props.flexDirection === "row-reverse" ? "flex-row-reverse" : "flex",
+          "max-sm:flex-col"
         )}
       >
         <div>

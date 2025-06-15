@@ -10,6 +10,17 @@
   line-height: 5pc;
   font-weight: bold;
 }
+@media (width < 40rem) {
+  .header_text {
+    font-size: 1.8pc;
+    width: fit-content;
+    line-height: 5pc;
+  }
+  .container_hero_section {
+    height: 86vh;
+    display: block;
+  }
+}
 
 .span_text {
   background-color: var(--primary-bg-color);
