@@ -23,6 +23,7 @@ const Operation_Section = () => {
   return (
     <>
       <div
+        id="Operation"
         className={clsx(
           "transition-all duration-700 max-sm:my-52",
           isTransiton

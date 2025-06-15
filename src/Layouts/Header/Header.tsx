@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import  globalStyle  from "../../Styles/global.module.css";
+import globalStyle from "../../Styles/global.module.css";
 import styleHeader from "./Header.module.css";
 import clsx from "clsx";
 import { HiBars3BottomRight, HiMiniXMark } from "react-icons/hi2";
@@ -50,9 +50,15 @@ export const Header = () => {
               alt="HeaderLogo.png"
             />
             <div className="flex items-center gap-10 max-sm:hidden">
-              <h1 className={link_text}>Features</h1>
-              <h1 className={link_text}>Operations</h1>
-              <h1 className={link_text}>Testimonials</h1>
+              <a href="#Feature">
+                <h1 className={link_text}>Features</h1>
+              </a>
+              <a href="#Operation">
+                <h1 className={link_text}>Operations</h1>
+              </a>
+              <a href="#Testimonials">
+                <h1 className={link_text}>Testimonials</h1>
+              </a>
               <button className={button}>Open Account</button>
             </div>
             <div className="sm:hidden" onClick={handleTriggerSidebar}>

@@ -18,9 +18,15 @@ const Sidebar = () => {
           <HiMiniXMark size={80} />
         </div>
         <div className="flex flex-col justify-center items-center gap-10 mt-36">
-          <h1 className={link_text}>Features</h1>
-          <h1 className={link_text}>Operations</h1>
-          <h1 className={link_text}>Testimonials</h1>
+          <a href="#Feature" onClick={handleTriggerSidebar}>
+            <h1 className={link_text}>Features</h1>
+          </a>
+          <a href="#Operation" onClick={handleTriggerSidebar}>
+            <h1 className={link_text}>Operations</h1>
+          </a>
+          <a href="#Testimonials" onClick={handleTriggerSidebar}>
+            <h1 className={link_text}>Testimonials</h1>
+          </a>
           <button className={button}>Open Account</button>
         </div>
       </div>

@@ -7,6 +7,7 @@ const SureSection = () => {
   return (
     <>
       <div
+        id="Testimonials"
         className={clsx(
           "transition-all duration-700",
           isTransiton
