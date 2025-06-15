@@ -12,7 +12,7 @@ export const Header = () => {
 
   useEffect(() => {
     const handleScroll = async () => {
-      if (window.scrollY >= 900) {
+      if (window.scrollY >= 600) {
         setIsNext(true);
       } else {
         setIsNext(false);
@@ -34,7 +34,7 @@ export const Header = () => {
         <div
           className={clsx(
             "transition-all duration-700",
-            isNext ? "fixed z-50 bg-white w-full top-0 py-3" : ""
+            isNext ? "fixed z-50 bg-white w-full top-0 " : ""
           )}
         >
           <div
@@ -50,15 +50,33 @@ export const Header = () => {
               alt="HeaderLogo.png"
             />
             <div className="flex items-center gap-10 max-sm:hidden">
-              <a href="#Feature">
-                <h1 className={link_text}>Features</h1>
-              </a>
-              <a href="#Operation">
-                <h1 className={link_text}>Operations</h1>
-              </a>
-              <a href="#Testimonials">
-                <h1 className={link_text}>Testimonials</h1>
-              </a>
+              <h1
+                className={link_text}
+                onClick={() => {
+                  window.scrollTo({ top: 770, behavior: "smooth" });
+                }}
+              >
+                Features
+              </h1>
+
+              <h1
+                className={link_text}
+                onClick={() => {
+                  window.scrollTo({ top: 2150, behavior: "smooth" });
+                }}
+              >
+                Operations
+              </h1>
+
+              <h1
+                className={link_text}
+                onClick={() => {
+                  window.scrollTo({ top: 2630, behavior: "smooth" });
+                }}
+              >
+                Testimonials
+              </h1>
+
               <button className={button}>Open Account</button>
             </div>
             <div className="sm:hidden" onClick={handleTriggerSidebar}>
