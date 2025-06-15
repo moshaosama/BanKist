@@ -46,7 +46,9 @@ const Operation_Section = () => {
               )}
               onClick={handleOpenisTransfers}
             >
-              <button className="cursor-pointer">01. instant Transfers</button>
+              <button className="cursor-pointer text-[#444]">
+                01. instant Transfers
+              </button>
             </div>
             <div
               className={clsx(
@@ -56,7 +58,9 @@ const Operation_Section = () => {
               )}
               onClick={handleOpenisLoan}
             >
-              <button className="cursor-pointer">02. instant Loan</button>
+              <button className="cursor-pointer text-[#444]">
+                02. instant Loan
+              </button>
             </div>
             <div
               className={clsx(
@@ -68,7 +72,9 @@ const Operation_Section = () => {
               )}
               onClick={handleOpenisClosing}
             >
-              <button className="cursor-pointer">03. instant Closing</button>
+              <button className="cursor-pointer text-[#444]">
+                03. instant Closing
+              </button>
             </div>
           </div>
 
@@ -86,10 +92,10 @@ const Operation_Section = () => {
                 <MdOutlineFileUpload size={30} />
               </div>
               <div className="flex flex-col gap-5">
-                <h1 className="text-xl font-bold">
+                <h1 className="text-xl font-bold text-[#444]">
                   Transfer money to anyone, instantly! No fees, no BS.
                 </h1>
-                <p className="font-semibold">
+                <p className="font-semibold text-[#444]">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco
@@ -113,10 +119,10 @@ const Operation_Section = () => {
                 <IoHomeOutline size={30} />
               </div>
               <div className="flex flex-col gap-5">
-                <h1 className="text-xl font-bold">
+                <h1 className="text-xl font-bold text-[#444]">
                   Buy a home or make your dreams come true, with instant loans.
                 </h1>
-                <p className="font-semibold">
+                <p className="font-semibold text-[#444]">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur. Excepteur sint
                   cupidatat non proident, sunt in culpa qui officia deserunt
@@ -140,10 +146,10 @@ const Operation_Section = () => {
                 <BsFillPersonXFill size={30} />
               </div>
               <div className="flex flex-col gap-5">
-                <h1 className="text-xl font-bold">
+                <h1 className="text-xl font-bold text-[#444]">
                   No longer need your account? No problem! Close it instantly.
                 </h1>
-                <p className="font-semibold">
+                <p className="font-semibold text-[#444]">
                   Excepteur sint occaecat cupidatat non proident, sunt in culpa
                   qui officia deserunt mollit anim id est laborum. Ut enim ad
                   minim veniam, quis nostrud exercitation ullamco laboris nisi

@@ -2,6 +2,8 @@
   margin-top: 25px;
   margin-left: 21pc;
   margin-right: 21pc;
+
+  color: var(--primary-text-color);
 }
 
 @media (width < 40rem) {

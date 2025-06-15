@@ -1,5 +1,6 @@
 .container {
   background-color: var(--primary-text-color);
+  color: white;
 }
 
 .Header_Details {

@@ -20,10 +20,10 @@ const SureSection = () => {
         />
         <div className="flex justify-center mt-10 my-20 max-sm:mx-3">
           <div className="flex flex-col ">
-            <h1 className="text-xl font-bold">
+            <h1 className="text-xl font-bold text-[#444]">
               Finally free from old school banks
             </h1>
-            <p className="w-[40pc] text-md max-sm:w-fit">
+            <p className="w-[40pc] text-md max-sm:w-fit text-[#444]">
               Debitis, nihil sit minus suscipit magni aperiam vel tenetur
               incidunt commodi architecto numquam omnis nulla autem,
               necessitatibus blanditiis modi similique quidem. Odio aliquam
@@ -40,8 +40,8 @@ const SureSection = () => {
                 />
               </div>
               <div>
-                <h1 className="text-xl font-bold">Mohamed Osama</h1>
-                <p>Egypt, Cairo</p>
+                <h1 className="text-xl font-bold text-[#444]">Mohamed Osama</h1>
+                <p className="text-[#444]">Egypt, Cairo</p>
               </div>
             </div>
           </div>
