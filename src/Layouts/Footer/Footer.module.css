@@ -1,0 +1,25 @@
+.container {
+  background-color: var(--primary-text-color);
+}
+
+.Header_Details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px;
+  gap: 20px;
+}
+
+.Btn {
+  background-color: var(--primary-bg-color);
+  width: 20pc;
+  font-weight: bolder;
+  color: black;
+  padding: 20px 0px;
+  border-radius: 10pc;
+  cursor: pointer;
+}
+.Btn:hover {
+  transform: scale(1.1);
+}
