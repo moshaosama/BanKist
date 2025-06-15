@@ -35,7 +35,7 @@ const Operation_Section = () => {
           Description="Everything as simple as possible, but no simpler."
         />
         <div className="flex flex-col relative items-center justify-center mt-10 mb-60">
-          <div className="flex gap-5 z-50">
+          <div className="flex gap-5 z-40">
             <div
               className={clsx(
                 Transfers_Btn,

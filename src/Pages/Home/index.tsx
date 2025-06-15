@@ -4,11 +4,16 @@ import Features_Section_Render from "../../Components/Featured_Section/Component
 import Operation_Section from "../../Components/Operations/Components/Operation_Section";
 import SureSection from "../../Components/Sure/SureSection";
 import Footer from "../../Layouts/Footer/Footer";
+import Sidebar from "../../Components/Sidebar/Sidebar";
+import SidebarProvider from "../../Context/SidebarContext";
 
 export const Home = () => {
   return (
     <>
-      <Header />
+      <SidebarProvider>
+        <Sidebar />
+        <Header />
+      </SidebarProvider>
       <HeroSection />
       <Features_Section_Render />
       <Operation_Section />
