@@ -4,11 +4,16 @@ import { LuCreditCard } from "react-icons/lu";
 import Featured_Section from "../Featured_Section";
 import { globalStyle } from "../../../Styles";
 import clsx from "clsx";
+import IntroSection from "../../IntroSection/IntroSection";
 
 const Features_Section_Render = () => {
   const { hr } = globalStyle();
   return (
     <>
+      <IntroSection
+        Description="Everything you need in a modern bank and more"
+        Header="Features"
+      />
       <Featured_Section
         flexDirection=""
         Header="100% digital bank"
