@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 * {
-  color: var(--primary-text-color);
+  color: white;
 }
 
 :root {
