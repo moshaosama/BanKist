@@ -1,4 +1,4 @@
-# 🎯 Project Title
+# 🎯 Bankist Project
 
 A responsive and animated frontend web app built entirely using **React.js**.  
 The project showcases the use of reusable components, animations, and modern styling with **Tailwind CSS**, **CSS Modules**, **React Context API**, and utilities like **clsx**.
